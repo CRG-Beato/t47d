@@ -5,7 +5,7 @@ We use the approach proposed by [Dudchenko et al.](http://science.sciencemag.org
 
 
 ## Index
-- Installation
+- [Installation](#installation)
 
 
 ## Installation
