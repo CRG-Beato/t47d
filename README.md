@@ -9,3 +9,11 @@ We use the approach proposed by [Dudchenko et al.](http://science.sciencemag.org
 
 
 ## Installation
+
+```
+cd /software/mb/el7.2/
+git@github.com:theaidenlab/3d-dna.git
+cd 3d-dna
+chmod a+x run-pipeline.sh
+```
+
