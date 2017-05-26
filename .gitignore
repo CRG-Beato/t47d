@@ -1,1 +1,4 @@
-analysis/*/data
+nalysis/2017-05-26_process_hic_juicer/data/juicer/references
+analysis/2017-05-26_process_hic_juicer/data/juicer/restriction_sizes
+analysis/2017-05-26_process_hic_juicer/data/samples
+
