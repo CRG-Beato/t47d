@@ -1,0 +1,29 @@
+(-: Looking for fastq files...fastq files exist
+Fri May 26 17:29:22 CEST 2017
+Juicer version:1.5
+/users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/juicer/scripts/juicer.sh -z /users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/juicer/references/hg38_mmtv_chr1-22XYMUn.fa -p /users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/juicer/references/hg38_mmtv_chr1-22XYMUn.chrom.sizes -s DpnII -g hg38 -D /users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/juicer -d /users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/samples/test1
+(-: Aligning files matching /users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/samples/test1/fastq/*_R*.fastq*
+ in queue  to genome hg38 with site file /users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/juicer/restriction_sites/hg38_DpnII.txt
+(-: Created /users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/samples/test1/splits and /users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/samples/test1/aligned.
+Running command bwa mem -t 16 /users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/juicer/references/hg38_mmtv_chr1-22XYMUn.fa /users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/samples/test1/splits/test1_R1.fastq.gz > /users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/samples/test1/splits/test1_R1.fastq.gz.sam
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 1000 sequences (75000 bp)...
+[M::mem_process_seqs] Processed 1000 reads in 0.342 CPU sec, 0.346 real sec
+[main] Version: 0.7.15-r1142-dirty
+[main] CMD: bwa mem -t 16 /users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/juicer/references/hg38_mmtv_chr1-22XYMUn.fa /users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/samples/test1/splits/test1_R1.fastq.gz
+[main] Real time: 20.150 sec; CPU: 4.231 sec
+(-:  Align of /users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/samples/test1/splits/test1_R1.fastq.gz.sam done successfully
+Running command bwa mem -t 16 /users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/juicer/references/hg38_mmtv_chr1-22XYMUn.fa /users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/samples/test1/splits/test1_R2.fastq.gz > /users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/samples/test1/splits/test1_R2.fastq.gz.sam
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 1000 sequences (75000 bp)...
+[M::mem_process_seqs] Processed 1000 reads in 0.251 CPU sec, 0.251 real sec
+[main] Version: 0.7.15-r1142-dirty
+[main] CMD: bwa mem -t 16 /users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/juicer/references/hg38_mmtv_chr1-22XYMUn.fa /users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/samples/test1/splits/test1_R2.fastq.gz
+[main] Real time: 2.284 sec; CPU: 2.273 sec
+(-: Mem align of /users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/samples/test1/splits/test1_R2.fastq.gz.sam done successfully
+(-: Sort read 1 aligned file by readname completed.
+(-: Sort read 2 aligned file by readname completed.
+(-: /users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/samples/test1/splits/test1.fastq.gz.sam created successfully.
+(-: Finished sorting all sorted files into a single merge.
+Can't open /users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/samples/test1/aligned/dups.txt: No such file or directory at /users/GR/mb/jquilez/projects/t47d/analysis/2017-05-26_process_hic_juicer/data/juicer/scripts/common/statistics.pl line 144.
+Picked up _JAVA_OPTIONS: -Xmx16384m
